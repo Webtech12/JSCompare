@@ -179,7 +179,7 @@ function CompareTables(table1,table2) {
 
         for(var j=0;j<values.length;j++) {
 
-          // checking for similar colom values
+          // checking for similar column values
           if(table1.rows[i].cells[0].innerHTML == table2.rows[i].cells[0].innerHTML && 
           table1.rows[i].cells[1].innerHTML == table2.rows[i].cells[1].innerHTML &&
           table1.rows[i].cells[2].innerHTML == table2.rows[i].cells[2].innerHTML &&
